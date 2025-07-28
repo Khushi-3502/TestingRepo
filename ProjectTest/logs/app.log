@@ -1,0 +1,33 @@
+[2025-07-28 19:04:00] [main] INFO  newPack.ApacheLog4j - Opened Browser Instance
+[2025-07-28 19:04:00] [main] INFO  newPack.ApacheLog4j - Window Maximized
+[2025-07-28 19:04:00] [main] INFO  newPack.ApacheLog4j - Implicit wait applied
+[2025-07-28 19:04:01] [main] INFO  newPack.ApacheLog4j - Application launched
+[2025-07-28 19:04:32] [main] ERROR newPack.ApacheLog4j - Web Element not found
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#emails"}
+  (Session info: chrome=138.0.7204.169)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ETMNRLTD', ip: '192.168.0.105', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\KHUSHI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c31012e93e31e683cf75293af75d572
+*** Element info: {Using=id, value=emails}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.By$ById.findElement(By.java:188) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at newPack.ApacheLog4j.main(ApacheLog4j.java:33) ~[test-classes/:?]
+[2025-07-28 19:05:16] [main] INFO  newPack.ApacheLog4j - Opened Browser Instance
+[2025-07-28 19:05:17] [main] INFO  newPack.ApacheLog4j - Window Maximized
+[2025-07-28 19:05:17] [main] INFO  newPack.ApacheLog4j - Implicit wait applied
+[2025-07-28 19:05:18] [main] INFO  newPack.ApacheLog4j - Application launched
+[2025-07-28 19:05:18] [main] INFO  newPack.ApacheLog4j - Web Element found.
