@@ -27,13 +27,13 @@ public class ApacheLog4j {
         logger.info("Implicit wait applied");
 
         driver.get("https://www.facebook.com/");
-        logger.info("Application launched");
+        logger.info("Application launchedddddddddddddddddd");
 
         try {
             driver.findElement(By.id("email")).isDisplayed();  // ⚠️ Note: "emails" may be incorrect ID
             logger.info("Web Element found.");
         } catch (Exception e) {
-            logger.error("Web Element not found", e);
+            logger.error("Web Element not founddddddddddddddd", e);
         }
     }
 }
