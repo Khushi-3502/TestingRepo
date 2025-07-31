@@ -1,1 +1,41 @@
+# Ignore target folder
 /target/
+
+# Ignore compiled class files
+*.class
+
+# Ignore logs and temp files, but allow app.log
+*.tmp
+
+# Don't ignore logs folder or specific log file
+!logs/
+!logs/app.log
+
+# Ignore everything in test-output
+test-output/**
+
+# Allow all files in test-output (override)
+!test-output/
+!test-output/**
+!test-output/**/*.html
+!test-output/**/*.xml
+!test-output/**/*.css
+!test-output/**/*.js
+!test-output/**/*.png
+!test-output/**/*.gif
+
+# Allow properties files
+!src/main/resource/*.properties
+
+# Allow Java files
+!src/main/java/**/*.java
+!src/test/java/**/*.java
+
+# Allow Eclipse project files
+!.classpath
+!.project
+!.settings/
+!.settings/**
+
+# Allow POM file
+!pom.xml
